@@ -39,8 +39,7 @@ import { Component, Output, EventEmitter, ChangeDetectionStrategy, Input, Templa
   `,
   host: {
     class: 'datatable-footer'
-  },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  }
 })
 export class DataTableFooterComponent {
 

@@ -11,7 +11,6 @@ import { MouseEvent, KeyboardEvent } from '../../events';
 
 @Component({
   selector: 'datatable-body-cell',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="datatable-body-cell-label">
       <label

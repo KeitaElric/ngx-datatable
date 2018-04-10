@@ -11,7 +11,6 @@ import { MouseEvent, KeyboardEvent, Event } from '../../events';
 
 @Component({
   selector: 'datatable-body-row',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div
       *ngFor="let colGroup of _columnsByPin; let i = index; trackBy: trackByGroups"

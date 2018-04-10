@@ -12,8 +12,7 @@ import { MouseEvent } from '../../events';
   `,
   host: {
     class: 'datatable-scroll'
-  },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  }
 })
 export class ScrollerComponent implements OnInit, OnDestroy {
 

@@ -6,7 +6,6 @@ import { MouseEvent } from '../../events';
 
 @Component({
   selector: 'datatable-row-wrapper',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div 
       *ngIf="groupHeader && groupHeader.template"

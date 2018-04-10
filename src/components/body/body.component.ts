@@ -84,7 +84,6 @@ import { MouseEvent } from '../../events';
       </div>
     </datatable-selection>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     class: 'datatable-body'
   }

@@ -58,8 +58,7 @@ import {
   `,
   host: {
     class: 'datatable-pager'
-  },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  }
 })
 export class DataTablePagerComponent {
 

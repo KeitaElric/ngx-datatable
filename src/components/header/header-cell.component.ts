@@ -41,8 +41,7 @@ import { MouseEvent } from '../../events';
   `,
   host: {
     class: 'datatable-header-cell'
-  },
-  changeDetection: ChangeDetectionStrategy.OnPush
+  }
 })
 
 export class DataTableHeaderCellComponent {

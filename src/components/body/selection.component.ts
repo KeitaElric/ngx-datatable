@@ -16,8 +16,7 @@ export interface Model {
   selector: 'datatable-selection',
   template: `
     <ng-content></ng-content>
-  `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  `
 })
 export class DataTableSelectionComponent {
 
